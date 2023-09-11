@@ -1,0 +1,88 @@
+body {
+  background: url(../images/bg-repeat.jpg) repeat-x;
+  background-size: contain;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.texto-chamada {
+  color: #fff;
+  margin-right: 60px;
+}
+
+.texto-chamada h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.texto-chamada p {
+  width: 280px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+}
+
+.inputs-field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-field input,
+textarea {
+  width: 300px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.inputs-field textarea {
+  height: 100px;
+}
+
+.formulario p {
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+.formulario button {
+  background-color: #3ccc87;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  padding: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.formulario button:hover {
+  color: #3ccc87;
+  background: none;
+  border: 1px solid #3ccc87;
+}
+
+.error {
+  color: #f52e2e;
+}
+
+.valido {
+  border: 1px solid #00c22b;
+}
+
+.invalido {
+  border: 1px solid #f52e2e;
+}
+
+.hidden {
+  display: none;
+}
