@@ -1,0 +1,10 @@
+@media (max-width: 690px) {
+  .main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .texto-chamada {
+    margin-right: 0;
+  }
+}
